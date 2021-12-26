@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Settings"
+
+   >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/logo"
+        android:alpha="0.25"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+
+            android:text=          "Getting Started: \n\n -When prompted allow the app to excess your app to manage phone calls and record audio.
+\n\n -To look at the latest news either click the news button on home page or tap the red voice assistant button and say 'Open news.' \n
+\n-To look at the latest news either click the taxi button on home page or tap the red voice assistant button and say 'Open Taxi.' \n
+\n-To call the emergency numbers like police,caretaker(which is saved as the name you want ),helpline etc click the Call button on home page or tap the red voice assistant button and say 'Call -----.' \n
+\n-To see videos  either click the YouTube button on home page or tap the red voice assistant button and say 'Open YouTube' \n
+\n-To videocall either click the Video Call button on home page  which will open a window in which enter the number you want to videocall or or tap the red voice assistant button and say 'video' which will videocall to your emergency contact/caretaker\n
+\n- Times of India, Goolge-Duo,ola are all the prerequisite for this app or else while clicking on the icon will open the webpage of the icon being clicked"/>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

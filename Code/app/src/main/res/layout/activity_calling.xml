@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Calling">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button"
+        android:backgroundTint="@color/colorAccent"
+        android:id="@+id/back"
+        android:text="BACK"
+        android:textColor="#000"
+        />
+
+    <EditText
+        android:layout_marginTop="100dp"
+        android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Name"
+
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="51dp" />
+    <EditText
+        android:id="@+id/b"
+        android:layout_below="@id/a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Number"
+        />
+    <Button
+        android:id="@+id/c"
+        android:layout_below="@id/b"
+       android:layout_marginTop="330dp"
+        android:layout_width="300dp"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:text="Save The Number"
+        android:backgroundTint="@color/colorAccent"
+        android:background="@drawable/round_button"/>
+
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contacts"
+    android:background="@drawable/logo"
+    android:paddingRight="5dp"
+    >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button"
+      android:id="@+id/back2"
+        android:text="BACK"
+        android:textColor="#000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="319dp"
+        android:orientation="vertical"
+        android:paddingVertical="20dp">
+
+        <Button
+            android:id="@+id/police"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:drawableLeft="@drawable/police"
+            android:drawableRight="@drawable/call"
+            android:text="Police"
+            android:textAlignment="textStart"
+            android:textSize="35dp"
+            android:alpha="0.9"/>
+
+        <Button
+
+            android:id="@+id/care"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:drawableLeft="@drawable/fire"
+            android:drawableRight="@drawable/call"
+            android:text="Caretaker"
+            android:textAlignment="textStart"
+            android:textSize="35dp"
+            android:alpha="0.9"/>
+
+
+        <Button
+            android:id="@+id/ambulance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:drawableLeft="@drawable/ambulance_new"
+            android:drawableRight="@drawable/call"
+            android:text="Ambulance"
+            android:textAlignment="textStart"
+            android:textSize="35dp"
+            android:alpha="0.9"/>
+
+        <Button
+            android:id="@+id/schelpline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:drawableLeft="@drawable/seniorcitizen"
+            android:drawableRight="@drawable/call"
+            android:text="Senior Citizen helpline"
+            android:textAlignment="textStart"
+            android:textSize="30dp"
+            android:alpha="0.9"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
